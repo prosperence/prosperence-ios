@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABC1C96919CAA01F002DA5D8 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC1C96819CAA01F002DA5D8 /* WebServices.swift */; };
+		ABC1C96B19CAA4B1002DA5D8 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC1C96A19CAA4B1002DA5D8 /* WebViewController.swift */; };
+		ABC1C96D19CAACE4002DA5D8 /* LoggedOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC1C96C19CAACE4002DA5D8 /* LoggedOutViewController.swift */; };
+		ABC1C96F19CAAD2E002DA5D8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC1C96E19CAAD2E002DA5D8 /* HomeViewController.swift */; };
+		ABC7DDB619CA3FCE00567597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7DDB519CA3FCE00567597 /* AppDelegate.swift */; };
+		ABC7DDB919CA3FCE00567597 /* Prosperance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABC7DDB719CA3FCE00567597 /* Prosperance.xcdatamodeld */; };
+		ABC7DDBB19CA3FCE00567597 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7DDBA19CA3FCE00567597 /* MasterViewController.swift */; };
+		ABC7DDBD19CA3FCE00567597 /* ProfileSelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7DDBC19CA3FCE00567597 /* ProfileSelectedViewController.swift */; };
+		ABC7DDC219CA3FCE00567597 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DDC119CA3FCE00567597 /* Images.xcassets */; };
+		ABC7DDC519CA3FCE00567597 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DDC319CA3FCE00567597 /* LaunchScreen.xib */; };
+		ABC7DDD119CA3FCE00567597 /* ProsperanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7DDD019CA3FCE00567597 /* ProsperanceTests.swift */; };
+		ABC7DDEE19CA414200567597 /* iPadLandscape_1024x768.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DDE519CA414200567597 /* iPadLandscape_1024x768.png */; };
+		ABC7DDEF19CA414200567597 /* iPadLandscape_2048x1536.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DDE619CA414200567597 /* iPadLandscape_2048x1536.png */; };
+		ABC7DDF019CA414200567597 /* iPadPortrait_768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DDE719CA414200567597 /* iPadPortrait_768x1024.png */; };
+		ABC7DDF119CA414200567597 /* iPadPortrait_1536x2048.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DDE819CA414200567597 /* iPadPortrait_1536x2048.png */; };
+		ABC7DDF219CA414200567597 /* iPhone4_320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DDE919CA414200567597 /* iPhone4_320x480.png */; };
+		ABC7DDF319CA414200567597 /* iPhone4_640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DDEA19CA414200567597 /* iPhone4_640x960.png */; };
+		ABC7DDF419CA414200567597 /* iPhone5_640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DDEB19CA414200567597 /* iPhone5_640x1136.png */; };
+		ABC7DDF519CA414200567597 /* iTunesArtwork_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DDEC19CA414200567597 /* iTunesArtwork_512x512.png */; };
+		ABC7DDF619CA414200567597 /* iTunesArtwork@2_1024x1025.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DDED19CA414200567597 /* iTunesArtwork@2_1024x1025.png */; };
+		ABC7DE0919CA41B800567597 /* carPlay_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DDF719CA41B800567597 /* carPlay_120x120.png */; };
+		ABC7DE0A19CA41B800567597 /* iPad_72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DDF819CA41B800567597 /* iPad_72x72.png */; };
+		ABC7DE0B19CA41B800567597 /* iPad_76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DDF919CA41B800567597 /* iPad_76x76.png */; };
+		ABC7DE0C19CA41B800567597 /* iPad_144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DDFA19CA41B800567597 /* iPad_144x144.png */; };
+		ABC7DE0D19CA41B800567597 /* iPad_152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DDFB19CA41B800567597 /* iPad_152x152.png */; };
+		ABC7DE0E19CA41B800567597 /* iPhone_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DDFC19CA41B800567597 /* iPhone_57x57.png */; };
+		ABC7DE0F19CA41B800567597 /* iPhone_60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DDFD19CA41B800567597 /* iPhone_60x60.png */; };
+		ABC7DE1019CA41B800567597 /* iPhone_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DDFE19CA41B800567597 /* iPhone_114x114.png */; };
+		ABC7DE1119CA41B800567597 /* iPhone_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DDFF19CA41B800567597 /* iPhone_120x120.png */; };
+		ABC7DE1219CA41B800567597 /* iPhone_180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DE0019CA41B800567597 /* iPhone_180x180.png */; };
+		ABC7DE1319CA41B800567597 /* settings_29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DE0119CA41B800567597 /* settings_29x29.png */; };
+		ABC7DE1419CA41B800567597 /* settings_58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DE0219CA41B800567597 /* settings_58x58.png */; };
+		ABC7DE1519CA41B800567597 /* settings_87x87.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DE0319CA41B800567597 /* settings_87x87.png */; };
+		ABC7DE1619CA41B800567597 /* spotlight_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DE0419CA41B800567597 /* spotlight_40x40.png */; };
+		ABC7DE1719CA41B800567597 /* spotlight_50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DE0519CA41B800567597 /* spotlight_50x50.png */; };
+		ABC7DE1819CA41B800567597 /* spotlight_80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DE0619CA41B800567597 /* spotlight_80x80.png */; };
+		ABC7DE1919CA41B800567597 /* spotlight_100x100.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DE0719CA41B800567597 /* spotlight_100x100.png */; };
+		ABC7DE1A19CA41B800567597 /* spotlight_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DE0819CA41B800567597 /* spotlight_120x120.png */; };
+		ABC7DE1D19CA41D000567597 /* infoplus_lightbulb.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DE1B19CA41D000567597 /* infoplus_lightbulb.png */; };
+		ABC7DE1E19CA41D000567597 /* logo-600x150-trans.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DE1C19CA41D000567597 /* logo-600x150-trans.png */; };
+		ABC7DE2019CA4B1700567597 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7DE1F19CA4B1700567597 /* Profile.swift */; };
+		ABC7DE2419CA502800567597 /* user_profile.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DE2219CA502800567597 /* user_profile.pdf */; };
+		ABC7DE2519CA502800567597 /* user_profile.svg in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DE2319CA502800567597 /* user_profile.svg */; };
+		ABC7DE2719CA517800567597 /* AddProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7DE2619CA517800567597 /* AddProfileViewController.swift */; };
+		ABC7DE2919CA5FF500567597 /* ProfileDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7DE2819CA5FF500567597 /* ProfileDAO.swift */; };
+		ABC7DE2D19CA628C00567597 /* DetailViewNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7DE2C19CA628C00567597 /* DetailViewNavigationController.swift */; };
+		ABC7DE2F19CA7F0700567597 /* NoProfileSelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7DE2E19CA7F0700567597 /* NoProfileSelectedViewController.swift */; };
+		ABC7DE3219CA822700567597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC7DE3019CA822700567597 /* Main.storyboard */; };
+		ABC7DE3419CA83B700567597 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7DE3319CA83B700567597 /* EditProfileViewController.swift */; };
+		ABC7DE3619CA947800567597 /* LogginInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7DE3519CA947800567597 /* LogginInViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABC7DDCB19CA3FCE00567597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC7DDA819CA3FCE00567597 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC7DDAF19CA3FCE00567597;
+			remoteInfo = InfoplusAccess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABC1C96819CAA01F002DA5D8 /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		ABC1C96A19CAA4B1002DA5D8 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		ABC1C96C19CAACE4002DA5D8 /* LoggedOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggedOutViewController.swift; sourceTree = "<group>"; };
+		ABC1C96E19CAAD2E002DA5D8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ABC7DDB019CA3FCE00567597 /* Prosperance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prosperance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC7DDB419CA3FCE00567597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC7DDB519CA3FCE00567597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABC7DDB819CA3FCE00567597 /* Prosperance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Prosperance.xcdatamodel; sourceTree = "<group>"; };
+		ABC7DDBA19CA3FCE00567597 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		ABC7DDBC19CA3FCE00567597 /* ProfileSelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSelectedViewController.swift; sourceTree = "<group>"; };
+		ABC7DDC119CA3FCE00567597 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABC7DDC419CA3FCE00567597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ABC7DDCA19CA3FCE00567597 /* ProsperanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProsperanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC7DDCF19CA3FCE00567597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC7DDD019CA3FCE00567597 /* ProsperanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProsperanceTests.swift; sourceTree = "<group>"; };
+		ABC7DDE519CA414200567597 /* iPadLandscape_1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadLandscape_1024x768.png; sourceTree = "<group>"; };
+		ABC7DDE619CA414200567597 /* iPadLandscape_2048x1536.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadLandscape_2048x1536.png; sourceTree = "<group>"; };
+		ABC7DDE719CA414200567597 /* iPadPortrait_768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadPortrait_768x1024.png; sourceTree = "<group>"; };
+		ABC7DDE819CA414200567597 /* iPadPortrait_1536x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadPortrait_1536x2048.png; sourceTree = "<group>"; };
+		ABC7DDE919CA414200567597 /* iPhone4_320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone4_320x480.png; sourceTree = "<group>"; };
+		ABC7DDEA19CA414200567597 /* iPhone4_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone4_640x960.png; sourceTree = "<group>"; };
+		ABC7DDEB19CA414200567597 /* iPhone5_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone5_640x1136.png; sourceTree = "<group>"; };
+		ABC7DDEC19CA414200567597 /* iTunesArtwork_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork_512x512.png; sourceTree = "<group>"; };
+		ABC7DDED19CA414200567597 /* iTunesArtwork@2_1024x1025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2_1024x1025.png"; sourceTree = "<group>"; };
+		ABC7DDF719CA41B800567597 /* carPlay_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carPlay_120x120.png; sourceTree = "<group>"; };
+		ABC7DDF819CA41B800567597 /* iPad_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad_72x72.png; sourceTree = "<group>"; };
+		ABC7DDF919CA41B800567597 /* iPad_76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad_76x76.png; sourceTree = "<group>"; };
+		ABC7DDFA19CA41B800567597 /* iPad_144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad_144x144.png; sourceTree = "<group>"; };
+		ABC7DDFB19CA41B800567597 /* iPad_152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad_152x152.png; sourceTree = "<group>"; };
+		ABC7DDFC19CA41B800567597 /* iPhone_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_57x57.png; sourceTree = "<group>"; };
+		ABC7DDFD19CA41B800567597 /* iPhone_60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_60x60.png; sourceTree = "<group>"; };
+		ABC7DDFE19CA41B800567597 /* iPhone_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_114x114.png; sourceTree = "<group>"; };
+		ABC7DDFF19CA41B800567597 /* iPhone_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_120x120.png; sourceTree = "<group>"; };
+		ABC7DE0019CA41B800567597 /* iPhone_180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_180x180.png; sourceTree = "<group>"; };
+		ABC7DE0119CA41B800567597 /* settings_29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_29x29.png; sourceTree = "<group>"; };
+		ABC7DE0219CA41B800567597 /* settings_58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_58x58.png; sourceTree = "<group>"; };
+		ABC7DE0319CA41B800567597 /* settings_87x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_87x87.png; sourceTree = "<group>"; };
+		ABC7DE0419CA41B800567597 /* spotlight_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spotlight_40x40.png; sourceTree = "<group>"; };
+		ABC7DE0519CA41B800567597 /* spotlight_50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spotlight_50x50.png; sourceTree = "<group>"; };
+		ABC7DE0619CA41B800567597 /* spotlight_80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spotlight_80x80.png; sourceTree = "<group>"; };
+		ABC7DE0719CA41B800567597 /* spotlight_100x100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spotlight_100x100.png; sourceTree = "<group>"; };
+		ABC7DE0819CA41B800567597 /* spotlight_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spotlight_120x120.png; sourceTree = "<group>"; };
+		ABC7DE1B19CA41D000567597 /* infoplus_lightbulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infoplus_lightbulb.png; sourceTree = "<group>"; };
+		ABC7DE1C19CA41D000567597 /* logo-600x150-trans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-600x150-trans.png"; sourceTree = "<group>"; };
+		ABC7DE1F19CA4B1700567597 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		ABC7DE2219CA502800567597 /* user_profile.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = user_profile.pdf; sourceTree = "<group>"; };
+		ABC7DE2319CA502800567597 /* user_profile.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = user_profile.svg; sourceTree = "<group>"; };
+		ABC7DE2619CA517800567597 /* AddProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProfileViewController.swift; sourceTree = "<group>"; };
+		ABC7DE2819CA5FF500567597 /* ProfileDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileDAO.swift; sourceTree = "<group>"; };
+		ABC7DE2C19CA628C00567597 /* DetailViewNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewNavigationController.swift; sourceTree = "<group>"; };
+		ABC7DE2E19CA7F0700567597 /* NoProfileSelectedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoProfileSelectedViewController.swift; sourceTree = "<group>"; };
+		ABC7DE3119CA822700567597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABC7DE3319CA83B700567597 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		ABC7DE3519CA947800567597 /* LogginInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogginInViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABC7DDAD19CA3FCE00567597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC7DDC719CA3FCE00567597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABC7DDA719CA3FCE00567597 = {
+			isa = PBXGroup;
+			children = (
+				ABC7DDB219CA3FCE00567597 /* Prosperance */,
+				ABC7DDCD19CA3FCE00567597 /* ProsperanceTests */,
+				ABC7DDB119CA3FCE00567597 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABC7DDB119CA3FCE00567597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABC7DDB019CA3FCE00567597 /* Prosperance.app */,
+				ABC7DDCA19CA3FCE00567597 /* ProsperanceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABC7DDB219CA3FCE00567597 /* Prosperance */ = {
+			isa = PBXGroup;
+			children = (
+				ABC7DDDB19CA3FF700567597 /* UI */,
+				ABC7DDDC19CA3FFF00567597 /* Model */,
+				ABC7DDDA19CA3FF200567597 /* Images */,
+				ABC7DDB319CA3FCE00567597 /* Supporting Files */,
+			);
+			path = Prosperance;
+			sourceTree = "<group>";
+		};
+		ABC7DDB319CA3FCE00567597 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC7DDB419CA3FCE00567597 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABC7DDCD19CA3FCE00567597 /* ProsperanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABC7DDD019CA3FCE00567597 /* ProsperanceTests.swift */,
+				ABC7DDCE19CA3FCE00567597 /* Supporting Files */,
+			);
+			path = ProsperanceTests;
+			sourceTree = "<group>";
+		};
+		ABC7DDCE19CA3FCE00567597 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC7DDCF19CA3FCE00567597 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABC7DDDA19CA3FF200567597 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ABC7DE2119CA4FAE00567597 /* Nav */,
+				ABC7DDE419CA408100567597 /* Launch */,
+				ABC7DDE319CA407A00567597 /* Logos */,
+				ABC7DDE219CA407400567597 /* Icons */,
+				ABC7DDC119CA3FCE00567597 /* Images.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		ABC7DDDB19CA3FF700567597 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				ABC7DE3019CA822700567597 /* Main.storyboard */,
+				ABC7DDDD19CA400800567597 /* Home */,
+				ABC7DDDE19CA401F00567597 /* Master */,
+				ABC7DDDF19CA402B00567597 /* Detail */,
+				ABC7DDE019CA403400567597 /* Web */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		ABC7DDDC19CA3FFF00567597 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABC7DDB719CA3FCE00567597 /* Prosperance.xcdatamodeld */,
+				ABC7DE1F19CA4B1700567597 /* Profile.swift */,
+				ABC7DE2819CA5FF500567597 /* ProfileDAO.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ABC7DDDD19CA400800567597 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ABC7DDC319CA3FCE00567597 /* LaunchScreen.xib */,
+				ABC7DDB519CA3FCE00567597 /* AppDelegate.swift */,
+				ABC1C96E19CAAD2E002DA5D8 /* HomeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		ABC7DDDE19CA401F00567597 /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				ABC7DDBA19CA3FCE00567597 /* MasterViewController.swift */,
+				ABC7DE2619CA517800567597 /* AddProfileViewController.swift */,
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		ABC7DDDF19CA402B00567597 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				ABC7DE2C19CA628C00567597 /* DetailViewNavigationController.swift */,
+				ABC7DE2E19CA7F0700567597 /* NoProfileSelectedViewController.swift */,
+				ABC7DDBC19CA3FCE00567597 /* ProfileSelectedViewController.swift */,
+				ABC7DE3319CA83B700567597 /* EditProfileViewController.swift */,
+				ABC7DE3519CA947800567597 /* LogginInViewController.swift */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		ABC7DDE019CA403400567597 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				ABC1C96819CAA01F002DA5D8 /* WebServices.swift */,
+				ABC1C96A19CAA4B1002DA5D8 /* WebViewController.swift */,
+				ABC1C96C19CAACE4002DA5D8 /* LoggedOutViewController.swift */,
+			);
+			name = Web;
+			sourceTree = "<group>";
+		};
+		ABC7DDE219CA407400567597 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				ABC7DDF719CA41B800567597 /* carPlay_120x120.png */,
+				ABC7DDF819CA41B800567597 /* iPad_72x72.png */,
+				ABC7DDF919CA41B800567597 /* iPad_76x76.png */,
+				ABC7DDFA19CA41B800567597 /* iPad_144x144.png */,
+				ABC7DDFB19CA41B800567597 /* iPad_152x152.png */,
+				ABC7DDFC19CA41B800567597 /* iPhone_57x57.png */,
+				ABC7DDFD19CA41B800567597 /* iPhone_60x60.png */,
+				ABC7DDFE19CA41B800567597 /* iPhone_114x114.png */,
+				ABC7DDFF19CA41B800567597 /* iPhone_120x120.png */,
+				ABC7DE0019CA41B800567597 /* iPhone_180x180.png */,
+				ABC7DE0119CA41B800567597 /* settings_29x29.png */,
+				ABC7DE0219CA41B800567597 /* settings_58x58.png */,
+				ABC7DE0319CA41B800567597 /* settings_87x87.png */,
+				ABC7DE0419CA41B800567597 /* spotlight_40x40.png */,
+				ABC7DE0519CA41B800567597 /* spotlight_50x50.png */,
+				ABC7DE0619CA41B800567597 /* spotlight_80x80.png */,
+				ABC7DE0719CA41B800567597 /* spotlight_100x100.png */,
+				ABC7DE0819CA41B800567597 /* spotlight_120x120.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		ABC7DDE319CA407A00567597 /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				ABC7DE1B19CA41D000567597 /* infoplus_lightbulb.png */,
+				ABC7DE1C19CA41D000567597 /* logo-600x150-trans.png */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+		ABC7DDE419CA408100567597 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				ABC7DDE519CA414200567597 /* iPadLandscape_1024x768.png */,
+				ABC7DDE619CA414200567597 /* iPadLandscape_2048x1536.png */,
+				ABC7DDE719CA414200567597 /* iPadPortrait_768x1024.png */,
+				ABC7DDE819CA414200567597 /* iPadPortrait_1536x2048.png */,
+				ABC7DDE919CA414200567597 /* iPhone4_320x480.png */,
+				ABC7DDEA19CA414200567597 /* iPhone4_640x960.png */,
+				ABC7DDEB19CA414200567597 /* iPhone5_640x1136.png */,
+				ABC7DDEC19CA414200567597 /* iTunesArtwork_512x512.png */,
+				ABC7DDED19CA414200567597 /* iTunesArtwork@2_1024x1025.png */,
+			);
+			name = Launch;
+			sourceTree = "<group>";
+		};
+		ABC7DE2119CA4FAE00567597 /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				ABC7DE2219CA502800567597 /* user_profile.pdf */,
+				ABC7DE2319CA502800567597 /* user_profile.svg */,
+			);
+			name = Nav;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABC7DDAF19CA3FCE00567597 /* Prosperance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC7DDD419CA3FCE00567597 /* Build configuration list for PBXNativeTarget "Prosperance" */;
+			buildPhases = (
+				ABC7DDAC19CA3FCE00567597 /* Sources */,
+				ABC7DDAD19CA3FCE00567597 /* Frameworks */,
+				ABC7DDAE19CA3FCE00567597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prosperance;
+			productName = InfoplusAccess;
+			productReference = ABC7DDB019CA3FCE00567597 /* Prosperance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABC7DDC919CA3FCE00567597 /* ProsperanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC7DDD719CA3FCE00567597 /* Build configuration list for PBXNativeTarget "ProsperanceTests" */;
+			buildPhases = (
+				ABC7DDC619CA3FCE00567597 /* Sources */,
+				ABC7DDC719CA3FCE00567597 /* Frameworks */,
+				ABC7DDC819CA3FCE00567597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC7DDCC19CA3FCE00567597 /* PBXTargetDependency */,
+			);
+			name = ProsperanceTests;
+			productName = InfoplusAccessTests;
+			productReference = ABC7DDCA19CA3FCE00567597 /* ProsperanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABC7DDA819CA3FCE00567597 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Prosperance;
+				TargetAttributes = {
+					ABC7DDAF19CA3FCE00567597 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 7UC2HETAN9;
+					};
+					ABC7DDC919CA3FCE00567597 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = ABC7DDAF19CA3FCE00567597;
+					};
+				};
+			};
+			buildConfigurationList = ABC7DDAB19CA3FCE00567597 /* Build configuration list for PBXProject "Prosperance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABC7DDA719CA3FCE00567597;
+			productRefGroup = ABC7DDB119CA3FCE00567597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABC7DDAF19CA3FCE00567597 /* Prosperance */,
+				ABC7DDC919CA3FCE00567597 /* ProsperanceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABC7DDAE19CA3FCE00567597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC7DE1E19CA41D000567597 /* logo-600x150-trans.png in Resources */,
+				ABC7DE1319CA41B800567597 /* settings_29x29.png in Resources */,
+				ABC7DE2419CA502800567597 /* user_profile.pdf in Resources */,
+				ABC7DDEF19CA414200567597 /* iPadLandscape_2048x1536.png in Resources */,
+				ABC7DE1919CA41B800567597 /* spotlight_100x100.png in Resources */,
+				ABC7DDF519CA414200567597 /* iTunesArtwork_512x512.png in Resources */,
+				ABC7DE1019CA41B800567597 /* iPhone_114x114.png in Resources */,
+				ABC7DDF019CA414200567597 /* iPadPortrait_768x1024.png in Resources */,
+				ABC7DE0919CA41B800567597 /* carPlay_120x120.png in Resources */,
+				ABC7DE0F19CA41B800567597 /* iPhone_60x60.png in Resources */,
+				ABC7DDF119CA414200567597 /* iPadPortrait_1536x2048.png in Resources */,
+				ABC7DE0B19CA41B800567597 /* iPad_76x76.png in Resources */,
+				ABC7DDEE19CA414200567597 /* iPadLandscape_1024x768.png in Resources */,
+				ABC7DDF419CA414200567597 /* iPhone5_640x1136.png in Resources */,
+				ABC7DE1719CA41B800567597 /* spotlight_50x50.png in Resources */,
+				ABC7DE1119CA41B800567597 /* iPhone_120x120.png in Resources */,
+				ABC7DE1519CA41B800567597 /* settings_87x87.png in Resources */,
+				ABC7DDF219CA414200567597 /* iPhone4_320x480.png in Resources */,
+				ABC7DE0C19CA41B800567597 /* iPad_144x144.png in Resources */,
+				ABC7DE1D19CA41D000567597 /* infoplus_lightbulb.png in Resources */,
+				ABC7DDC519CA3FCE00567597 /* LaunchScreen.xib in Resources */,
+				ABC7DE1219CA41B800567597 /* iPhone_180x180.png in Resources */,
+				ABC7DE1819CA41B800567597 /* spotlight_80x80.png in Resources */,
+				ABC7DE3219CA822700567597 /* Main.storyboard in Resources */,
+				ABC7DE0D19CA41B800567597 /* iPad_152x152.png in Resources */,
+				ABC7DE1619CA41B800567597 /* spotlight_40x40.png in Resources */,
+				ABC7DE1A19CA41B800567597 /* spotlight_120x120.png in Resources */,
+				ABC7DE0E19CA41B800567597 /* iPhone_57x57.png in Resources */,
+				ABC7DDF319CA414200567597 /* iPhone4_640x960.png in Resources */,
+				ABC7DE2519CA502800567597 /* user_profile.svg in Resources */,
+				ABC7DDF619CA414200567597 /* iTunesArtwork@2_1024x1025.png in Resources */,
+				ABC7DE0A19CA41B800567597 /* iPad_72x72.png in Resources */,
+				ABC7DDC219CA3FCE00567597 /* Images.xcassets in Resources */,
+				ABC7DE1419CA41B800567597 /* settings_58x58.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC7DDC819CA3FCE00567597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABC7DDAC19CA3FCE00567597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC7DDB619CA3FCE00567597 /* AppDelegate.swift in Sources */,
+				ABC7DE2D19CA628C00567597 /* DetailViewNavigationController.swift in Sources */,
+				ABC1C96919CAA01F002DA5D8 /* WebServices.swift in Sources */,
+				ABC7DE3619CA947800567597 /* LogginInViewController.swift in Sources */,
+				ABC7DE2019CA4B1700567597 /* Profile.swift in Sources */,
+				ABC1C96F19CAAD2E002DA5D8 /* HomeViewController.swift in Sources */,
+				ABC1C96D19CAACE4002DA5D8 /* LoggedOutViewController.swift in Sources */,
+				ABC7DDB919CA3FCE00567597 /* Prosperance.xcdatamodeld in Sources */,
+				ABC7DE2F19CA7F0700567597 /* NoProfileSelectedViewController.swift in Sources */,
+				ABC7DDBB19CA3FCE00567597 /* MasterViewController.swift in Sources */,
+				ABC7DE2719CA517800567597 /* AddProfileViewController.swift in Sources */,
+				ABC7DDBD19CA3FCE00567597 /* ProfileSelectedViewController.swift in Sources */,
+				ABC7DE3419CA83B700567597 /* EditProfileViewController.swift in Sources */,
+				ABC1C96B19CAA4B1002DA5D8 /* WebViewController.swift in Sources */,
+				ABC7DE2919CA5FF500567597 /* ProfileDAO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC7DDC619CA3FCE00567597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC7DDD119CA3FCE00567597 /* ProsperanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABC7DDCC19CA3FCE00567597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC7DDAF19CA3FCE00567597 /* Prosperance */;
+			targetProxy = ABC7DDCB19CA3FCE00567597 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABC7DDC319CA3FCE00567597 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC7DDC419CA3FCE00567597 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		ABC7DE3019CA822700567597 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC7DE3119CA822700567597 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABC7DDD219CA3FCE00567597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABC7DDD319CA3FCE00567597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABC7DDD519CA3FCE00567597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Prosperance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Prosperance;
+			};
+			name = Debug;
+		};
+		ABC7DDD619CA3FCE00567597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Prosperance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Prosperance;
+			};
+			name = Release;
+		};
+		ABC7DDD819CA3FCE00567597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProsperanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ProsperanceTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prosperance.app/Prosperance";
+			};
+			name = Debug;
+		};
+		ABC7DDD919CA3FCE00567597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProsperanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ProsperanceTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prosperance.app/Prosperance";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABC7DDAB19CA3FCE00567597 /* Build configuration list for PBXProject "Prosperance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC7DDD219CA3FCE00567597 /* Debug */,
+				ABC7DDD319CA3FCE00567597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC7DDD419CA3FCE00567597 /* Build configuration list for PBXNativeTarget "Prosperance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC7DDD519CA3FCE00567597 /* Debug */,
+				ABC7DDD619CA3FCE00567597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC7DDD719CA3FCE00567597 /* Build configuration list for PBXNativeTarget "ProsperanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC7DDD819CA3FCE00567597 /* Debug */,
+				ABC7DDD919CA3FCE00567597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ABC7DDB719CA3FCE00567597 /* Prosperance.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ABC7DDB819CA3FCE00567597 /* Prosperance.xcdatamodel */,
+			);
+			currentVersion = ABC7DDB819CA3FCE00567597 /* Prosperance.xcdatamodel */;
+			path = Prosperance.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ABC7DDA819CA3FCE00567597 /* Project object */;
+}

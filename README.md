@@ -1,2 +1,2 @@
-# prosperance-ios
-iOS mobile shell app that launches into uiWebView of responsive web app
+# prosperence-ios
+iOS login shell app that launches into uiWebView containing responsive Prosperence web app
