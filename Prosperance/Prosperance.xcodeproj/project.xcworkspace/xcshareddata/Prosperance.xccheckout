@@ -10,6 +10,8 @@
 	<string>Prosperance</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>A34D328CBE763E8EE0184314FDB66167A236843B</key>
+		<string>github.com:prosperence/prosperence-ios.git</string>
 		<key>BED4DD72CCFDCB60C8CA3442A810E8B3B9319321</key>
 		<string>https://github.com/scottrice10/prosperance-ios.git</string>
 	</dict>
@@ -17,15 +19,17 @@
 	<string>Prosperance/Prosperance.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>BED4DD72CCFDCB60C8CA3442A810E8B3B9319321</key>
+		<key>A34D328CBE763E8EE0184314FDB66167A236843B</key>
 		<string>../../..</string>
+		<key>BED4DD72CCFDCB60C8CA3442A810E8B3B9319321</key>
+		<string>../../../../prosperance-ios</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/scottrice10/prosperance-ios.git</string>
+	<string>github.com:prosperence/prosperence-ios.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>BED4DD72CCFDCB60C8CA3442A810E8B3B9319321</string>
+	<string>A34D328CBE763E8EE0184314FDB66167A236843B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>BED4DD72CCFDCB60C8CA3442A810E8B3B9319321</string>
 			<key>IDESourceControlWCCName</key>
 			<string>prosperance-ios</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A34D328CBE763E8EE0184314FDB66167A236843B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>prosperence-ios</string>
 		</dict>
 	</array>
 </dict>

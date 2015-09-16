@@ -55,7 +55,7 @@ class WebViewController: UIViewController
         cookieProperties.setObject(host!, forKey:NSHTTPCookieDomain);
         cookieProperties.setObject("/", forKey:NSHTTPCookiePath);
         
-        var cookie = NSHTTPCookie(properties: cookieProperties)
+        var cookie = NSHTTPCookie(properties: cookieProperties as [NSObject : AnyObject])
         let storage = NSHTTPCookieStorage.sharedHTTPCookieStorage()
         storage.setCookie(cookie!)
     }
@@ -82,11 +82,11 @@ class WebViewController: UIViewController
             var request = webView.request!
             var url = request.URL
             
-            println("in webViewDidFinishLoad : went to page [\(url)] as [\(request.HTTPMethod)] : with last Path Component [\(url.lastPathComponent)]")
+            println("in webViewDidFinishLoad : went to page [\(url)] as [\(request.HTTPMethod)] : with last Path Component [\(url!.lastPathComponent)]")
             
-            if(url.lastPathComponent?.hasSuffix("logout") == true || url.lastPathComponent?.hasSuffix("login") == true)
+            if(url!.lastPathComponent?.hasSuffix("logout") == true || url!.lastPathComponent?.hasSuffix("login") == true)
             {
-                var loggedOutViewController = self.storyboard?.instantiateViewControllerWithIdentifier("loggedOutViewController") as LoggedOutViewController
+                var loggedOutViewController = self.storyboard?.instantiateViewControllerWithIdentifier("loggedOutViewController") as! LoggedOutViewController
                 self.presentViewController(loggedOutViewController, animated: false, completion: nil)
             }
         }

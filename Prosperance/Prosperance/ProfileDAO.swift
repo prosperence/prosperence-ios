@@ -19,7 +19,7 @@ func createProfile(username: String, password: String, rememberPassword: NSNumbe
 
 func createProfile(newProfile: SimpleProfile)
 {
-    var context = (UIApplication.sharedApplication().delegate as AppDelegate).managedObjectContext!
+    var context = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext!
     var entityDescription = NSEntityDescription.entityForName("Profile", inManagedObjectContext: context)
     var profile = Profile(entity: entityDescription!, insertIntoManagedObjectContext: context)
     
@@ -51,7 +51,7 @@ func createProfile(newProfile: SimpleProfile)
 
 func updateProfile(existingProfile: Profile, updatedProfile: SimpleProfile)
 {
-    var context = (UIApplication.sharedApplication().delegate as AppDelegate).managedObjectContext!
+    var context = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext!
     
     existingProfile.username            = updatedProfile.username
     existingProfile.rememberPassword    = updatedProfile.rememberPassword

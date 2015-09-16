@@ -39,7 +39,7 @@ class EditProfileViewController: UIViewController
         
         if(segue.identifier == "saveEditedProfile")
         {
-            var psvc = segue.destinationViewController as ProfileSelectedViewController
+            var psvc = segue.destinationViewController as! ProfileSelectedViewController
             psvc.updatedSimpleProfile = simpleProfile
         }
     }

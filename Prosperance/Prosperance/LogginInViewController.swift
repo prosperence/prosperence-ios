@@ -120,7 +120,7 @@ class LogginInViewController: UIViewController
     
     func showUiWebView() -> Void
     {
-        var wvc = self.storyboard?.instantiateViewControllerWithIdentifier("webViewController") as WebViewController
+        var wvc = self.storyboard?.instantiateViewControllerWithIdentifier("webViewController") as! WebViewController
         wvc.profile = self.profile
         wvc.sessionId = self.sessionId
         self.presentViewController(wvc, animated: false, completion: nil)

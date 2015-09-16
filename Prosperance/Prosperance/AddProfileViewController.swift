@@ -25,7 +25,7 @@ class AddProfileViewController: UIViewController
     {
         if(segue.identifier == "saveProfile")
         {
-            var mvc = segue.destinationViewController as MasterViewController
+            var mvc = segue.destinationViewController as! MasterViewController
             mvc.newProfile = simpleProfile;
         }
     }

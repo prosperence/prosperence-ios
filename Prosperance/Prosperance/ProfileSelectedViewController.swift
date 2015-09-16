@@ -31,12 +31,12 @@ class ProfileSelectedViewController: UIViewController
     {
         if(segue.identifier == "editProfile")
         {
-            let vc = segue.destinationViewController as EditProfileViewController
+            let vc = segue.destinationViewController as! EditProfileViewController
             vc.profile = self.profile
         }
         else if(segue.identifier == "loginProfile")
         {
-            let vc = segue.destinationViewController as LogginInViewController
+            let vc = segue.destinationViewController as! LogginInViewController
             vc.profile = self.profile
         }
     }
